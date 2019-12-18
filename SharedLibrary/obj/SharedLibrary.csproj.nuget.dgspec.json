@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "/Users/spencerweber/Desktop/Code/C#8AndNETCore3/Chapter07/SharedLibrary/SharedLibrary.csproj",
-        "projectName": "SharedLibrary",
+        "projectName": "SW.CS8.SharedLibrary",
         "projectPath": "/Users/spencerweber/Desktop/Code/C#8AndNETCore3/Chapter07/SharedLibrary/SharedLibrary.csproj",
         "packagesPath": "/Users/spencerweber/.nuget/packages/",
         "outputPath": "/Users/spencerweber/Desktop/Code/C#8AndNETCore3/Chapter07/SharedLibrary/obj/",

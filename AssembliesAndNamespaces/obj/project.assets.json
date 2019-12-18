@@ -10,6 +10,15 @@
         "runtime": {
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
+      },
+      "SW.CS8.SharedLibrary/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/SharedLibrary.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/SharedLibrary.dll": {}
+        }
       }
     }
   },
@@ -44,11 +53,25 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "SW.CS8.SharedLibrary/1.0.0": {
+      "sha512": "zdU6G/7Im959G/yhDX+jSP7cartNTmvZmFP5FYR1c5qEgTsQY2rw3GjzRYKHn0qZJMbXEPp69Wk4Hod5YdRO6A==",
+      "type": "package",
+      "path": "sw.cs8.sharedlibrary/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/SharedLibrary.dll",
+        "packt-cs8-sharedlibrary.png",
+        "sw.cs8.sharedlibrary.1.0.0.nupkg.sha512",
+        "sw.cs8.sharedlibrary.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "newtonsoft.json"
+      "newtonsoft.json >= 12.0.3",
+      "sw.cs8.sharedlibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -88,7 +111,11 @@
         "dependencies": {
           "newtonsoft.json": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[12.0.3, )"
+          },
+          "sw.cs8.sharedlibrary": {
+            "target": "Package",
+            "version": "[1.0.0, )"
           }
         },
         "imports": [
