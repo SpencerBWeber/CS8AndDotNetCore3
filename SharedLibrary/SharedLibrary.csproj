@@ -17,7 +17,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None include="packt-cs8-sharedlibrary.png">
+    <None Include="packt-cs8-sharedlibrary.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

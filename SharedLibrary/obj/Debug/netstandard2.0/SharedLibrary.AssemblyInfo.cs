@@ -11,8 +11,10 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SharedLibrary")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Spencer B Weber")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright © 2019 Spencer Weber")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Three extension methods to validate a string value.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SharedLibrary")]
