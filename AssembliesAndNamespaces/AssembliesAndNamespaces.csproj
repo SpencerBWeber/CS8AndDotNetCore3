@@ -8,6 +8,7 @@
   <ItemGroup>
     <PackageReference Include="newtonsoft.json" Version="12.0.3" />
     <PackageReference Include="sw.cs8.sharedlibrary" Version="1.0.0" />
+    <PackageReference Include="dialectsoftware.collections.matrix" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
